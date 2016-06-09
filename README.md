@@ -1,5 +1,52 @@
 # js_2016
 
+**Lesson3**
+
+1) _lesson3/js/trigon.js_ 
+
+Напишите цикл, который выводит такой треугольник.
+
+2) _lesson3/js/say.js_
+
+Что будет, если вызов say('Вася'); стоит в самом-самом начале, в первой строке кода?
+
+say('Вася'); // Что выведет? Не будет ли ошибки?
+var phrase = 'Привет';
+
+function say(name) {
+console.log( name + ", " + phrase );
+}
+
+3) _lesson3/js/f.js_
+
+Каков будет результат выполнения этого кода?
+
+var value = 0;
+
+function f() {
+if (1) {
+value = true;
+} else {
+var value = false;
+}
+
+alert( value );
+}
+
+f();
+
+4) _lesson3/js/anonym.js_
+
+Каков будет результат выполнения кода? Почему?
+   
+   var a = 5;
+   
+   (function() {
+   alert(a)
+   })();
+
+------------------------------------------------------------------------
+
 **Lesson2**
 
 1) _lesson2/js/var.js_
